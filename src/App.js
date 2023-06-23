@@ -126,7 +126,6 @@ function App() {
                         </Wrap>
                     }
                 />
-                <Route path='/' element={<div>hompage</div>}></Route>
                 <Route path='about' element={<About />}>
                     <Route path='info' element={<div>Infomation</div>} />
                 </Route>
