@@ -34,7 +34,7 @@ function App() {
                 <Container>
                     <Navbar.Brand
                         onClick={() => {
-                            navigate('/');
+                            navigate('/samjin-shop');
                         }}
                     >
                         Samjin_Shop
@@ -43,7 +43,7 @@ function App() {
                     <Nav className='me-auto'>
                         <Nav.Link
                             onClick={() => {
-                                navigate('/');
+                                navigate('/samjin-shop');
                             }}
                         >
                             Home
@@ -78,7 +78,7 @@ function App() {
 
             <Routes>
                 <Route
-                    path='/'
+                    path='samjin-shop'
                     element={
                         <Wrap>
                             <img src={process.env.PUBLIC_URL + '/images/visual_main_01.jpg'} alt='vm' style={{display: 'block', width: '100%'}} />
